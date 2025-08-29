@@ -12,6 +12,7 @@ type Props ={
 };
 
 export const Card = ({
+    
     title,
     id,
     imageSrc,
