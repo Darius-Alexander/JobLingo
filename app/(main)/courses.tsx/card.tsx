@@ -11,8 +11,7 @@ type Props ={
     active?: boolean;
 };
 
-export const Card = ({
-    
+export const Card = ({ 
     title,
     id,
     imageSrc,
