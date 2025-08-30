@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Nunito} from "next/font/google";
 import { ClerkProvider } from "@clerk/nextjs";
 import "./globals.css";
+import { Toaster } from "@/components/ui/sonner";
+
 
 const font = Nunito({
   variable: "--font-geist-sans",
@@ -22,6 +24,7 @@ export default function RootLayout({
     <ClerkProvider> 
       <html lang="en">
         <body className={font.className}>
+          <Toaster />
           {children}
         </body>
       </html>
