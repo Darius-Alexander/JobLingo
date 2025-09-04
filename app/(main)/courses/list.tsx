@@ -25,7 +25,7 @@ type Props = {
 
         startTransition(() => {
             upsertUserProgress(id)
-                .catch(() => toast.error("Something went wrong."))
+                .catch(() => toast.error("Something went wrong."));
             
         });
     };
