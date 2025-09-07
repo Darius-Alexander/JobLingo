@@ -15,6 +15,27 @@
       "when": 1756400941449,
       "tag": "0001_special_jocasta",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1757229907191,
+      "tag": "0002_sudden_hellion",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1757230504246,
+      "tag": "0003_ancient_ricochet",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1757230527101,
+      "tag": "0004_boring_gamma_corps",
+      "breakpoints": true
     }
   ]
 }
