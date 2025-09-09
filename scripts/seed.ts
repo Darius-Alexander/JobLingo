@@ -95,6 +95,14 @@ const main = async () => {
                 text: "un banquier",
                 audioSrc: "/fr_banker.mp3"
             },
+            {
+                id: 3,
+                challengeId: 1,
+                imageSrc: "/money.svg",
+                correct: false,
+                text: "argent",
+                audioSrc: "/fr_money.mp3"
+            },
         ]);
 
         console.log("Seeding finished");
