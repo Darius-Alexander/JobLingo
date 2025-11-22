@@ -32,6 +32,8 @@ export const Quiz = ({
     });
 
     const challenge = challenges[activeIndex];
+    const options = challenge?.challengeOptions ?? [];
+
     const title = challenge.type === "ASSIST" 
         ? "Select the correct meaning"
         : challenge.question;
@@ -50,9 +52,17 @@ export const Quiz = ({
                             {title}
                         </h1>
                         <div>
-                            {challenge.type === "SELECT" && (
+                            {challenge.type === "ASSIST" && (
                                 <QuestionBubble question={challenge.question} />
                             )}
+                            <Challenge 
+                                options={options}
+                                onSelect={() => {}}
+                                status="correct"
+                                selectedOption={null}
+                                disabled={false}
+                                type={challenge.type}
+                            />
                         </div>
                     </div>
                 </div>
